@@ -10,8 +10,8 @@ license = "MIT"
 [dependencies]
 serde_json = "1.0.140"
 serde = "1.0.219"
-luminos-contracts ={ path = "../Contracts", version = "0.1.0"}
-luminos-container ={ path = "../Container", version = "0.1.0"}
+luminos-contracts ={ path = "../contracts", version = "0.1.0"}
+luminos-container ={ path = "../container", version = "0.1.0"}
 
 [lints.rust]
 dead_code = "allow"
