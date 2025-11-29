@@ -1,7 +1,7 @@
 // Module Declaration
-mod fluent;
-mod contracts;
 mod collection;
+mod contracts;
+mod fluent;
 mod helpers;
 #[macro_use]
 mod macros;

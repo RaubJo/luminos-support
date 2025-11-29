@@ -1,4 +1,3 @@
-
 #[derive(Debug, Clone, Default)]
 pub struct Collection<T> {
     items: Vec<T>,
@@ -29,7 +28,7 @@ impl<T> Collection<T> {
     pub fn into_inner(self) -> Vec<T> {
         self.items
     }
-    
+
     /// Get the length of the collection
     pub fn len(&self) -> usize {
         self.items.len()
